@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poojas & Events - Pulikkathara Sree Vishnu Maya-Bhadrakali Temple</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manjari:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tailwind Output -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="bg-temple-bg text-temple-text font-sans antialiased min-h-screen flex flex-col">
+    <div id="navbar-container"></div>
+    
+    <main class="flex-grow py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+        <h1 class="text-4xl md:text-5xl font-bold text-temple-maroon mb-12 text-center" data-i18n="poojas_title">Daily Poojas & Events</h1>
+        
+        
+
+        <!-- Tabular Schedules -->
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="bg-temple-gold text-temple-maroon">
+                        <th class="py-4 px-6 font-bold text-lg" data-i18n="table_time">Time</th>
+                        <th class="py-4 px-6 font-bold text-lg" data-i18n="table_pooja">Pooja Details</th>
+                    </tr>
+                </thead>
+                <tbody class="text-gray-700 divide-y divide-gray-200">
+                    <tr class="hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-6 font-semibold">05:00 AM</td>
+                        <td class="py-4 px-6" data-i18n="pooja_1">Nirmalyam & Abhishekam</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-6 font-semibold">06:30 AM</td>
+                        <td class="py-4 px-6" data-i18n="pooja_2">Usha Pooja</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-6 font-semibold">10:30 AM</td>
+                        <td class="py-4 px-6" data-i18n="pooja_3">Ucha Pooja (Noon Pooja)</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition-colors bg-gray-100">
+                        <td class="py-4 px-6 font-semibold text-gray-500">11:00 AM - 05:00 PM</td>
+                        <td class="py-4 px-6 text-gray-500 italic" data-i18n="temple_closed">Temple Closed</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-6 font-semibold">06:30 PM</td>
+                        <td class="py-4 px-6" data-i18n="pooja_4">Deeparadhana</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-6 font-semibold">07:30 PM</td>
+                        <td class="py-4 px-6" data-i18n="pooja_5">Athazha Pooja</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+    
+    <script src="./assets/js/i18n.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/countdown.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Pulikkathara Sree Vishnu Maya-Bhadrakali Temple</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manjari:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tailwind Output -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="bg-temple-bg text-temple-text font-sans antialiased min-h-screen flex flex-col">
+    <div id="navbar-container"></div>
+    
+    <main class="flex-grow py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+        <h1 class="text-4xl md:text-5xl font-bold text-temple-maroon mb-12 text-center" data-i18n="about_title">About The Temple</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+                <h2 class="text-3xl font-semibold text-temple-gold mb-6" data-i18n="history_title">History & Legends</h2>
+                <p class="text-lg leading-relaxed mb-4" data-i18n="history_p1">Believed to be over a thousand years old, the Pulikkathara Sree Vishnu Maya-Bhadrakali Temple is intertwined with the rich mythological tapestry of Kerala. Legends say the original idol (prathishta) was consecrated by sage Parasurama.</p>
+                <p class="text-lg leading-relaxed" data-i18n="history_p2">Over centuries, it has stood as a beacon of spiritual solace, surviving natural calamities and preserving the ancient tantric traditions.</p>
+            </div>
+            <div class="bg-gray-200 h-80 rounded-2xl flex items-center justify-center text-gray-500 overflow-hidden relative shadow-lg">
+                <img src="https://placehold.co/800x600/800000/D4AF37?text=Temple+Architecture" alt="Temple Architecture" class="absolute inset-0 w-full h-full object-cover opacity-80">
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="bg-white p-8 rounded-2xl shadow-md border-l-4 border-temple-maroon">
+                <h2 class="text-2xl font-semibold text-temple-maroon mb-4" data-i18n="main_deity_title">Main Deity (Prathishta)</h2>
+                <p class="text-gray-700 leading-relaxed" data-i18n="main_deity_desc">The presiding deity is Lord Shiva, worshipped in the form of a Shiva Lingam. The sanctum sanctorum (Sreekovil) is circular, a unique architectural marvel reflecting traditional Kerala vasthu shastra.</p>
+            </div>
+            
+            <div class="bg-white p-8 rounded-2xl shadow-md border-l-4 border-temple-gold">
+                <h2 class="text-2xl font-semibold text-temple-gold mb-4" data-i18n="sub_deities_title">Sub-Deities (Upadevatas)</h2>
+                <ul class="list-disc list-inside text-gray-700 space-y-2" data-i18n="sub_deities_list">
+                    <li>Lord Ganesha (Ganapathi)</li>
+                    <li>Lord Ayyappa (Sastha)</li>
+                    <li>Goddess Parvathi (Bhagavathi)</li>
+                    <li>Naga Devatas (Serpent Gods)</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+    
+    <script src="./assets/js/i18n.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
