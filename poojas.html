@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poojas & Events - Pulikkathara Sree Vishnu Maya-Bhadrakali Temple</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manjari:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tailwind Output -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="bg-temple-bg text-temple-text font-sans antialiased min-h-screen flex flex-col">
+    <div id="navbar-container"></div>
+    
+    <main class="flex-grow py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+        <!-- Consecration Day Pooja Timings Poster -->
+        <div class="mb-16 max-w-3xl mx-auto bg-white p-6 md:p-8 rounded-2xl shadow-xl border-l-4 border-temple-maroon">
+            <h2 class="text-2xl md:text-3xl font-bold text-temple-maroon mb-6 text-center" data-i18n="pooja_event_title">പ്രതിഷ്ഠാദിന പൂജാ സമയം</h2>
+            <div class="flex justify-center items-center overflow-hidden rounded-xl bg-gray-50 border border-gray-100 p-2 shadow-inner">
+                <img src="assets/images/pooja.webp" alt="Pooja Timings" class="w-full h-auto object-contain rounded-lg" loading="lazy">
+            </div>
+        </div>
+
+        <h1 class="text-4xl md:text-5xl font-bold text-temple-maroon mb-12 text-center" data-i18n="poojas_title">Daily Poojas & Events</h1>
+        
+        
+
+        <!-- Tabular Schedules -->
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="bg-temple-gold text-temple-maroon">
+                        <th class="py-4 px-6 font-bold text-lg" data-i18n="table_time">Time</th>
+                        <th class="py-4 px-6 font-bold text-lg" data-i18n="table_pooja">Pooja Details</th>
+                    </tr>
+                </thead>
+                <tbody class="text-gray-700 divide-y divide-gray-200">
+                    <tr class="hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-6 font-semibold">05.00 PM</td>
+                        <td class="py-4 px-6" data-i18n="pooja_1">വിഷ്ണുമായ സ്വാമിക്ക്പൂജ </td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-6 font-semibold">06.30 PM</td>
+                        <td class="py-4 px-6" data-i18n="pooja_1">വിഷ്ണുമായ സ്വാമിക്ക്പൂജ നിവേദ്യം ദീപരാധന</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-6 font-semibold">07:00 PM</td>
+                        <td class="py-4 px-6" data-i18n="pooja_2">ദേവി പൂജദീപാരാധന നിവേദ്യം ദീപരാധന</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-6 font-semibold">07.30 PM</td>
+                        <td class="py-4 px-6" data-i18n="pooja_3">മുത്തപ്പന് വിഷ്ണമായ സ്വാമി ക്ക്കലശം</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50 transition-colors">
+                        <td class="py-4 px-6 font-semibold text-gray-500">08.30 PM</td>
+                        <td class="py-4 px-6 " data-i18n="temple_closed">നട അടയക്കൽ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+<br>
+<br>
+        <!-- Offering Details Section -->
+        <div class="mt-16 bg-white p-6 md:p-8 rounded-2xl shadow-xl border-l-4 border-temple-gold">
+            <h2 class="text-2xl md:text-3xl font-bold text-temple-maroon mb-8 text-center border-b border-gray-100 pb-4">വഴിപാട് വിവരം</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">കളം വഴിപാട്</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹7001</span>
+                </div>
+                <!-- Card 2 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">നിറമാല, ചുറ്റുവിളക്ക്</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹1501</span>
+                </div>
+                <!-- Card 3 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">ഒരു ദിവസത്തെ പൂജ</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹1001</span>
+                </div>
+                <!-- Card 4 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">കലശം വഴിപാട്</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹301</span>
+                </div>
+                <!-- Card 5 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">കടുംപായസം</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹75</span>
+                </div>
+                <!-- Card 6 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">പാൽപായസം</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹51</span>
+                </div>
+                <!-- Card 7 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">പട്ടും താലിയും ചാർത്തൽ</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹51</span>
+                </div>
+                <!-- Card 8 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">സഹസ്ര നാമാർച്ചന</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹51</span>
+                </div>
+                <!-- Card 9 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">മഹാഗണപതിഹവനം</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹101</span>
+                </div>
+                <!-- Card 10 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">നെൽപ്പറ</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹100</span>
+                </div>
+                <!-- Card 11 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">മലർനിവേദ്യം</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹15</span>
+                </div>
+                <!-- Card 12 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">ത്രിമധുരം</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹15</span>
+                </div>
+                <!-- Card 13 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">വിദ്യാമന്ത്രാർച്ചന</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹15</span>
+                </div>
+                <!-- Card 14 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">ഭാഗ്യസൂക്തം</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹15</span>
+                </div>
+                <!-- Card 15 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">സ്വയംവര പുഷ്പാഞ്ജലി</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹15</span>
+                </div>
+                <!-- Card 16 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">ശത്രുസംഹാര പുഷ്പാഞ്ജലി</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹15</span>
+                </div>
+                <!-- Card 17 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">അർച്ചന</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹10</span>
+                </div>
+                <!-- Card 18 -->
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-temple-gold/30 hover:bg-white hover:shadow-md transition-all">
+                    <span class="font-medium text-gray-800 text-lg">നൂറുംപാലും സർപ്പ പൂജ</span>
+                    <span class="font-bold text-temple-maroon bg-temple-gold/10 px-3 py-1 rounded-lg text-lg">₹101</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+    
+    <script src="./assets/js/i18n.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/countdown.js"></script>
+</body>
+</html>

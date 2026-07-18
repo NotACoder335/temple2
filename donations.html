@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donations - Pulikkathara Sree Vishnu Maya-Bhadrakali Temple</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manjari:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tailwind Output -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="bg-temple-bg text-temple-text font-sans antialiased min-h-screen flex flex-col">
+    <div id="navbar-container"></div>
+    
+    <main class="flex-grow py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+        <div class="max-w-3xl mx-auto text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-temple-maroon mb-6" data-i18n="donations_title">Support the Temple</h1>
+            <p class="text-lg text-gray-700 leading-relaxed" data-i18n="donations_desc">Your generous contributions help us maintain the temple, conduct regular poojas, and support community welfare activities. May Lord Pulikkathara Sree Vishnu Maya-Bhadrakali Temple bless you abundantly.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <!-- Bank Transfer -->
+            <div class="bg-white p-8 rounded-2xl shadow-md border-t-4 border-temple-maroon">
+                <h2 class="text-2xl font-semibold text-temple-maroon mb-6 flex items-center gap-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+                    <span data-i18n="bank_details_title">Bank Transfer</span>
+                </h2>
+                <div class="space-y-4 text-gray-700">
+                    <div>
+                        <p class="text-sm text-gray-500 uppercase tracking-wider font-semibold" data-i18n="bank_name_label">Bank Name</p>
+                        <p class="font-medium text-lg">#######</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500 uppercase tracking-wider font-semibold" data-i18n="account_name_label">Account Name</p>
+                        <p class="font-medium text-lg">#######</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500 uppercase tracking-wider font-semibold" data-i18n="account_no_label">Account Number</p>
+                        <p class="font-medium text-lg font-mono tracking-wider">#######</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500 uppercase tracking-wider font-semibold" data-i18n="ifsc_label">IFSC Code</p>
+                        <p class="font-medium text-lg font-mono tracking-wider">#######</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UPI Scan -->
+            <div class="bg-temple-maroon p-8 rounded-2xl shadow-md text-temple-bg flex flex-col items-center justify-center text-center">
+                <h2 class="text-2xl font-semibold text-temple-gold mb-6" data-i18n="upi_scan_title">Scan & Pay via UPI</h2>
+                <div class="bg-white p-4 rounded-xl mb-6 shadow-inner w-48 h-48 flex items-center justify-center">
+                    <img src="https://placehold.co/160x160/333333/ffffff?text=QR+Code" alt="UPI QR Code" class="w-full h-full object-cover" loading="lazy">
+                </div>
+                <div class="bg-white/10 px-6 py-3 rounded-lg w-full">
+                    <p class="text-sm text-temple-gold mb-1 uppercase tracking-wider font-semibold" data-i18n="upi_id_label">UPI ID</p>
+                    <p class="font-mono text-xl tracking-wider select-all cursor-pointer hover:text-white transition">#######@sbi</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+    
+    <script src="./assets/js/i18n.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
