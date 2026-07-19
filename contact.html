@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,36 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manjari:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manjari:wght@400;700&display=swap"
+        rel="stylesheet">
     <!-- Tailwind Output -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body class="bg-temple-bg text-temple-text font-sans antialiased min-h-screen flex flex-col relative">
     <div id="navbar-container"></div>
-    
+
     <main class="flex-grow py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
-        <h1 class="text-4xl md:text-5xl font-bold text-temple-maroon mb-12 text-center" data-i18n="contact_title">Contact & Location</h1>
-        
+        <h1 class="text-4xl md:text-5xl font-bold text-temple-maroon mb-12 text-center" data-i18n="contact_title">
+            Contact & Location</h1>
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 bg-white p-6 md:p-10 rounded-2xl shadow-xl">
             <!-- Contact Details -->
             <div class="flex flex-col justify-center">
-                <h2 class="text-2xl font-semibold text-temple-maroon mb-6" data-i18n="contact_details_title">Get in Touch</h2>
-                
+                <h2 class="text-2xl font-semibold text-temple-maroon mb-6" data-i18n="contact_details_title">Get in
+                    Touch</h2>
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
-                        <svg class="w-6 h-6 text-temple-gold mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <svg class="w-6 h-6 text-temple-gold mt-1 flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
                         <div>
                             <h3 class="font-medium text-gray-900" data-i18n="address_label">Address</h3>
                             <p class="text-gray-600 mt-1">Mannam Karingamthuruth Rd, Thathappilly P.O, Kerala 683520</p>
@@ -32,25 +45,53 @@
                     </div>
 
                     <div class="flex items-start gap-4">
-                        <svg class="w-6 h-6 text-temple-gold mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        <svg class="w-6 h-6 text-temple-gold mt-1 flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                            </path>
+                        </svg>
                         <div>
                             <h3 class="font-medium text-gray-900" data-i18n="phone_label">Phone</h3>
-                            <p class="text-gray-600 mt-1">+91 9947776113</p>
-                            <p class="text-gray-600 mt-1">+91 9446666113</p>
+                            <p class="text-gray-600 mt-1">
+                                <a href="tel:+919947776113"
+                                    class="hover:text-temple-maroon transition-colors inline-flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-temple-grey" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                                        </path>
+                                    </svg>
+                                    <span>+91 9947776113</span>
+                                </a>
+                            </p>
+                            <p class="text-gray-600 mt-1">
+                                <a href="https://wa.me/919446666113" target="_blank" rel="noopener noreferrer"
+                                    class="hover:text-[#25D366] transition-colors inline-flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-[#25D366] fill-current" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.76.459 3.475 1.33 4.992L2 22l5.163-1.353a9.924 9.924 0 0 0 4.849 1.265c5.506 0 9.988-4.482 9.988-9.988 0-2.668-1.039-5.176-2.927-7.064C17.186 3.039 14.68 2 12.012 2zM12 20.301c-1.579 0-3.13-.42-4.493-1.214l-.322-.189-3.06.802.816-2.984-.207-.33A8.257 8.257 0 0 1 3.73 12c0-4.571 3.716-8.287 8.287-8.287 2.214 0 4.295.862 5.86 2.428a8.23 8.23 0 0 1 2.428 5.86c-.001 4.57-3.717 8.287-8.287 8.287zm4.542-6.196c-.249-.125-1.472-.727-1.7-.81-.228-.083-.395-.125-.561.125-.166.249-.643.81-.788.976-.145.166-.29.187-.539.062a6.793 6.793 0 0 1-2.002-1.233c-.783-.698-1.31-1.561-1.464-1.827-.154-.266-.016-.41.118-.543.121-.119.266-.311.399-.467.133-.156.177-.266.266-.443.089-.177.044-.332-.022-.457-.066-.125-.561-1.35-.768-1.848-.201-.485-.406-.418-.561-.426-.145-.008-.31-.01-.476-.01-.166 0-.436.062-.664.311-.228.249-.871.851-.871 2.076 0 1.225.892 2.41 1.017 2.576.125.166 1.756 2.682 4.254 3.757.594.256 1.059.409 1.422.524.597.19 1.141.163 1.572.099.48-.072 1.472-.602 1.68-1.183.208-.581.208-1.079.145-1.183-.063-.104-.228-.166-.477-.291z" />
+                                    </svg>
+                                    <span>+91 9446666113</span>
+                                </a>
+                            </p>
                         </div>
                     </div>
 
                     <div class="flex items-start gap-4 pt-4">
-                        <a href="mailto:jkumarhivision@gmail.com" class="text-gray-400 hover:text-[#EA4335] transition-colors" aria-label="Email">
+                        <a href="mailto:pulikkathara.sreevishnumaya@gmail.com"
+                            class="text-gray-400 hover:text-[#EA4335] transition-colors" aria-label="Email">
                             <!-- Gmail icon -->
                             <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                                <path
+                                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
                             </svg>
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-[#1877F2] transition-colors" aria-label="Facebook">
+                        <a href="https://www.facebook.com/PulikkatharaSreeVishnumayaBhadrakaliTemple/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#1877F2] transition-colors" aria-label="Facebook">
                             <!-- Facebook icon -->
                             <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                             </svg>
                         </a>
                     </div>
@@ -61,18 +102,22 @@
             <div class="flex flex-col h-full">
                 <h2 class="text-2xl font-semibold text-temple-gold mb-6" data-i18n="location_title">Our Location</h2>
                 <div class="w-full h-64 md:h-96 rounded-xl overflow-hidden shadow-inner mb-6 relative bg-gray-200">
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.7072028219395!2d76.2644444!3d10.123035499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0811e1d1fa9d73%3A0x393a9640b8e850d6!2sPulikkathara%20Sree%20Vishnu%20Maya-Badrakali%20Temple!5e0!3m2!1sen!2sin!4v1782890472098!5m2!1sen!2sin" 
-                        class="absolute top-0 left-0 w-full h-full border-0" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="strict-origin-when-cross-origin"
-                        title="Google Maps Location">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.7072028219395!2d76.2644444!3d10.123035499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0811e1d1fa9d73%3A0x393a9640b8e850d6!2sPulikkathara%20Sree%20Vishnu%20Maya-Badrakali%20Temple!5e0!3m2!1sen!2sin!4v1782890472098!5m2!1sen!2sin"
+                        class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin" title="Google Maps Location">
                     </iframe>
                 </div>
                 <div class="mt-auto">
-                    <a href="https://maps.app.goo.gl/nkd7fW4uGxmMBs6y6" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-temple-maroon font-semibold hover:text-temple-gold transition-colors underline decoration-2 underline-offset-4">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <a href="https://maps.app.goo.gl/nkd7fW4uGxmMBs6y6" target="_blank" rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 text-temple-maroon font-semibold hover:text-temple-gold transition-colors underline decoration-2 underline-offset-4">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
                         <span data-i18n="open_maps_btn">Open in Google Maps</span>
                     </a>
                 </div>
@@ -81,13 +126,17 @@
     </main>
 
     <!-- Success Toast -->
-    <div id="toast" class="fixed bottom-4 right-4 bg-green-500 text-white px-6 py-4 rounded-lg shadow-2xl transform translate-y-20 opacity-0 transition-all duration-300 z-50 flex items-center gap-3">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+    <div id="toast"
+        class="fixed bottom-4 right-4 bg-green-500 text-white px-6 py-4 rounded-lg shadow-2xl transform translate-y-20 opacity-0 transition-all duration-300 z-50 flex items-center gap-3">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
         <span class="font-medium" data-i18n="toast_success">Message sent successfully!</span>
     </div>
 
     <div id="footer-container"></div>
-    
+
     <script src="./assets/js/i18n.js"></script>
     <script src="./assets/js/main.js"></script>
     <script>
@@ -95,15 +144,15 @@
             const form = document.getElementById('contactForm');
             const toast = document.getElementById('toast');
 
-            if(form) {
+            if (form) {
                 form.addEventListener('submit', (e) => {
                     e.preventDefault();
                     // Basic validation is handled by HTML5 'required' attributes
-                    
+
                     // Show toast
                     toast.classList.remove('translate-y-20', 'opacity-0');
                     toast.classList.add('translate-y-0', 'opacity-100');
-                    
+
                     // Reset form
                     form.reset();
 
@@ -117,4 +166,5 @@
         });
     </script>
 </body>
+
 </html>

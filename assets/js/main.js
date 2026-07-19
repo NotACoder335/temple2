@@ -88,7 +88,7 @@ Thathapilly</p>
                 <h3 class="text-lg font-semibold text-temple-gold mb-4" data-i18n="footer_contact">Contact Us</h3>
                 <ul class="space-y-2 text-sm text-gray-400">
                     <li>Thathappilly P.O, Kerala 683520</li>
-                    <li>jkumarhivision@gmail.com</li>
+                    <li>pulikkathara.sreevishnumaya@gmail.com</li>
                     <li>+91 9947776113</li>
                     <li>+91 9446666113</li>
                 </ul>
